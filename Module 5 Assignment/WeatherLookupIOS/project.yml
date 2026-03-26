@@ -1,0 +1,20 @@
+name: WeatherLookupIOS
+options:
+  bundleIdPrefix: com.frcc
+  deploymentTarget:
+    iOS: "15.0"
+
+targets:
+  WeatherLookupIOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: .
+        excludes:
+          - project.yml
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.frcc.weatherlookup
+        SWIFT_VERSION: 5.0
+        INFOPLIST_FILE: Info.plist
+        DEVELOPMENT_TEAM: ""
