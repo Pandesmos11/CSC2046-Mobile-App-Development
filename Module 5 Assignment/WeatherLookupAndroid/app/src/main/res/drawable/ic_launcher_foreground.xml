@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App icon — sun with a cloud -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Sun rays -->
+    <path android:fillColor="#FFC107"
+          android:pathData="M54,22 L56,30 L52,30 Z
+                            M54,86 L56,78 L52,78 Z
+                            M22,54 L30,56 L30,52 Z
+                            M86,54 L78,56 L78,52 Z" />
+    <!-- Sun circle -->
+    <path android:fillColor="#FFD54F"
+          android:pathData="M54,35 A15,15 0 1,1 54,65 A15,15 0 1,1 54,35 Z" />
+    <!-- Cloud body -->
+    <path android:fillColor="#FFFFFF"
+          android:pathData="M38,62 Q34,62 34,66 Q34,70 38,70 L70,70 Q76,70 76,64 Q76,58 70,58 Q70,54 66,54 Q64,48 58,48 Q50,48 48,54 Q42,54 38,62 Z" />
+</vector>

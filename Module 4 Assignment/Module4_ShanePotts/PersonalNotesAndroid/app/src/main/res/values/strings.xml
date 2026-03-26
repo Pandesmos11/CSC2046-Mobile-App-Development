@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    strings.xml
+    All user-visible text in one place for easy localization.
+-->
+<resources>
+
+    <!-- ── App identity ──────────────────────────────────────── -->
+    <string name="app_name">Personal Notes</string>
+
+    <!-- ── List screen ───────────────────────────────────────── -->
+    <!-- Shown centered on screen when no notes exist -->
+    <string name="empty_state">No notes yet.\nTap + to create one.</string>
+    <!-- Accessibility label for the FAB -->
+    <string name="fab_new_note">New note</string>
+
+    <!-- ── Editor screen ─────────────────────────────────────── -->
+    <string name="hint_title">Title</string>
+    <string name="hint_body">Write your note here…</string>
+
+    <!-- ── Menu items ────────────────────────────────────────── -->
+    <string name="menu_save">Save</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_about">About</string>
+
+</resources>

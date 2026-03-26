@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main app theme — inherits Material3 DayNight with no action bar
+         so we can use our own toolbar-style title in the layout. -->
+    <style name="Theme.TipCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/teal_500</item>
+        <item name="colorPrimaryVariant">@color/teal_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <!-- Tonal button style used for the quick-tip preset buttons -->
+    <style name="Widget.TipCalculator.TonalButton" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

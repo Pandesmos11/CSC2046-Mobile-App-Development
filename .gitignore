@@ -1,0 +1,24 @@
+# Android build output
+**/build/
+**/.gradle/
+**/.idea/
+**/*.iml
+**/local.properties
+**/.DS_Store
+
+# iOS build output
+**/DerivedData/
+**/*.xcworkspace/xcuserdata/
+**/*.xcodeproj/xcuserdata/
+**/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Node
+**/node_modules/
+**/package-lock.json
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Zip files (submissions)
+*.zip

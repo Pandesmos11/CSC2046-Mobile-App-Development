@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather Lookup</string>
+    <string name="hint_city">City name</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_retry">Retry</string>
+    <string name="label_five_day">5-Day Forecast</string>
+    <string name="menu_about">About</string>
+</resources>

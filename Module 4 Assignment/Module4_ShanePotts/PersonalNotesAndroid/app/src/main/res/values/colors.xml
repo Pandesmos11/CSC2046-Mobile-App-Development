@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    colors.xml
+    All color tokens for Personal Notes.
+    Using Material Blue to visually distinguish this app from the
+    teal-themed Tip Calculator in Module 3.
+-->
+<resources>
+
+    <!-- ── Primary brand palette (Material Blue) ──────────────────
+         blue_700  → toolbar background, navigation icon, FAB tint
+         blue_500  → theme colorPrimary, outlined text fields
+         blue_100  → thin divider in the note editor             -->
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_100">#BBDEFB</color>
+
+    <!-- ── Neutral / base colors ──────────────────────────────── -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- ── Surface / content colors ──────────────────────────── -->
+    <color name="surface_variant">#F5F5F5</color>
+    <color name="on_surface_variant">#757575</color>
+
+</resources>

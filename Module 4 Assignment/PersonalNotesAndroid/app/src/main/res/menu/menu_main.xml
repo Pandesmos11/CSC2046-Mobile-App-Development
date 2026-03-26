@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    menu_main.xml
+    A single three-line (hamburger) icon always visible in the top-right
+    of the toolbar.  Tapping it shows a PopupMenu (menu_options.xml)
+    with the available app-level actions.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+        showAsAction="always" keeps the icon visible in the top-right
+        corner at all times rather than hiding it inside a three-dot overflow.
+    -->
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@drawable/ic_menu_lines"
+        android:title="Menu"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dropdown that appears when the three-line icon is tapped -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/option_reset"
+        android:title="Reset" />
+
+    <item
+        android:id="@+id/option_share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/option_settings"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/option_about"
+        android:title="About" />
+
+</menu>

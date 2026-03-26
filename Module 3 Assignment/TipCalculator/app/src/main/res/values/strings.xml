@@ -1,0 +1,42 @@
+<!--
+    strings.xml
+    All user-visible strings are declared here so the app can be
+    localized by simply swapping in a translated strings.xml file
+    without touching any Kotlin or layout code.
+-->
+<resources>
+
+    <!-- ── App identity ───────────────────────────────────────── -->
+    <string name="app_name">Tip Calculator</string>
+
+    <!-- ── Input section labels ───────────────────────────────── -->
+    <!-- Label above the bill-amount TextInputLayout              -->
+    <string name="label_bill_amount">Bill Amount</string>
+    <!-- Hint shown inside the TextInputEditText when it is empty -->
+    <string name="hint_bill_amount">0.00</string>
+    <!-- Left-hand label in the Tip % row (value shown on right)  -->
+    <string name="label_tip_percent">Tip</string>
+    <!-- Label above the split-counter row                        -->
+    <string name="label_split">Split Between</string>
+
+    <!-- ── Split-counter button symbols ──────────────────────────
+         Using Unicode MINUS SIGN (U+2212) instead of a plain
+         hyphen-minus so the two buttons are visually symmetric.  -->
+    <string name="btn_minus">−</string>
+    <string name="btn_plus">+</string>
+
+    <!-- ── Results section labels ─────────────────────────────── -->
+    <string name="label_tip_amount">Tip Amount</string>
+    <string name="label_per_person">Per Person</string>
+    <string name="label_total">Total</string>
+
+    <!-- ── Miscellaneous UI text ──────────────────────────────── -->
+    <!-- Affordance hint rendered at the bottom of the results card -->
+    <string name="swipe_hint">← Swipe anywhere to clear →</string>
+    <!-- Em-dash placeholder shown in result fields before the
+         user has entered a valid bill amount                     -->
+    <string name="default_amount">—</string>
+    <!-- Used in the share message when split count > 1           -->
+    <string name="people">people</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    colors.xml
+    Centralizes every color token used in the app so that a future
+    re-brand only requires changes in this one file.
+-->
+<resources>
+
+    <!-- ── Primary brand palette (Material Teal) ──────────────────
+         teal_700  → toolbar background, SeekBar thumb, accent text,
+                     Total-row label color
+         teal_500  → SeekBar progress track, theme colorPrimary
+         teal_100  → thin divider rule above the Total row           -->
+    <color name="teal_700">#00796B</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_100">#B2DFDB</color>
+
+    <!-- ── Neutral / base colors ──────────────────────────────────
+         white → toolbar icon tint, colorOnPrimary in theme
+         black → system default; kept for completeness              -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- ── Surface / content colors ──────────────────────────────
+         surface_variant    → light gray background for the
+                              ScrollView content area behind cards
+         on_surface_variant → medium gray used for secondary labels
+                              (Bill Amount, Tip %, Split Between…)  -->
+    <color name="surface_variant">#F5F5F5</color>
+    <color name="on_surface_variant">#757575</color>
+
+    <!-- ── Highlight ──────────────────────────────────────────────
+         total_highlight → very light teal wash applied to the
+                           Total row to draw the eye to the final
+                           figure without being visually heavy      -->
+    <color name="total_highlight">#E0F2F1</color>
+
+</resources>
