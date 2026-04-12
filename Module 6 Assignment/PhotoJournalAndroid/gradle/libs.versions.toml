@@ -1,0 +1,20 @@
+# kotlin-android plugin intentionally omitted — AGP 9.0 registers Kotlin internally.
+[versions]
+agp               = "9.0.0"
+coreKtx           = "1.15.0"
+appcompat         = "1.7.0"
+material          = "1.12.0"
+activity          = "1.10.1"
+recyclerview      = "1.3.2"
+coordinatorlayout = "1.3.0"
+
+[libraries]
+androidx-core-ktx          = { group = "androidx.core",               name = "core-ktx",          version.ref = "coreKtx"          }
+androidx-appcompat         = { group = "androidx.appcompat",          name = "appcompat",         version.ref = "appcompat"         }
+material                   = { group = "com.google.android.material", name = "material",          version.ref = "material"          }
+androidx-activity          = { group = "androidx.activity",           name = "activity",          version.ref = "activity"          }
+androidx-recyclerview      = { group = "androidx.recyclerview",       name = "recyclerview",      version.ref = "recyclerview"      }
+androidx-coordinatorlayout = { group = "androidx.coordinatorlayout", name = "coordinatorlayout", version.ref = "coordinatorlayout" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

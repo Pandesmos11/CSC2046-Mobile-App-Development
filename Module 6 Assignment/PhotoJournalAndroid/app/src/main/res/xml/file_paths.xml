@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Declares the directories FileProvider is allowed to share.
+    external-files-path maps to getExternalFilesDir() — app-specific storage
+    that requires no READ/WRITE_EXTERNAL_STORAGE permission on Android 10+.
+-->
+<paths>
+    <external-files-path name="photos" path="Pictures/" />
+</paths>
